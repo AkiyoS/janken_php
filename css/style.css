@@ -1,0 +1,109 @@
+/* 全体 */
+* {
+  box-sizing: border-box;
+}
+
+/* この下から記述 */
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+}
+
+.wrap {
+  width: 640px;
+  margin: 0 auto;
+  height: 100%;
+  background-image: url(../img/inu.png);
+  background-repeat: no-repeat;
+  background-position: bottom 10px right 10px;
+  background-size: 12%;
+  background-color: lightyellow;
+}
+
+.wrap:hover {
+  background-image: url(../img/monster.png); 
+}
+
+.wrapxx {
+  width: 640px;
+  margin: 0 auto;
+  height: 100%;
+  background-image: url(../img/inu.png);
+  background-repeat: no-repeat;
+  background-position: bottom 10px right 10px;
+  background-size: 12%;
+  background-color: lightyellow;
+}
+
+.wrapxx:hover {
+  background-image: url(../img/arupaka.png); 
+}
+
+h1 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  padding: 40px 0 50px;
+}
+
+#name {
+  display: block;
+  width: 200px;
+  height: 40px;
+  margin: 0 auto;
+}
+
+button{
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.te {
+  height: 120px;
+  margin: 0 10px;
+}
+
+.message {
+  text-align: center;
+  margin: 30px 0;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+.hands {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.kakegoe {
+  text-align: center;
+}
+
+.result {
+  text-align: center;
+  padding: 60px 0 48px;
+}
+
+.fin {
+  text-align: center;
+}
+
+.kachi {
+  color: gold;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.aiko {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+}
